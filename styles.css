@@ -1,0 +1,164 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+
+.container {
+  background-color: #1f2937;
+  width: 100%;
+  height: 400px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  border-radius: 20px;
+  background: rgb(13, 111, 202);
+  border: 0;
+  width: 80px;
+  height: 25px;
+  gap: 16px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.About {
+  width: 350px;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+img {
+  margin: 0;
+}
+
+.container.two {
+  background-color: #f9faf8;
+  height: 500px;
+  justify-content: center;
+}
+
+.info-images {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.info-header {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 800;
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.info-images li {
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 200px;
+  gap: 16px;
+}
+
+img.res {
+  border-color: #3883f6;
+  width: 150px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.container.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  align-items: center;
+}
+
+.container.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  text-align: center;
+  width: 500px;
+}
+
+.container.action {
+  background-color: #f9faf8;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3883f6;
+  height: 150px;
+  width: 800px;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.action-header {
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.sign-up-2 {
+  margin-top: 55px;
+  width: 100px;
+  height: 40px;
+  background-color: #3883f6;
+  border: white 1px solid;
+}
+
+.sign-up-2:hover {
+  background-color: #1f2937;
+}
+
+.container.footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
